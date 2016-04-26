@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static(__dirname + '/src'));
 
 app.get('/', function(req,res) {
-  res.json({balls: "Yay"});
+  // res.json({balls: "Yay"});
 })
 
 app.listen(3000, function() {
